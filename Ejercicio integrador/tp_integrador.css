@@ -1,0 +1,244 @@
+body{
+    width: 1000px;
+    margin: auto;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+#header {
+    height: 400px;
+    background-image: url("resources/header.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+.filaSup{
+    width: 100%;
+     display: flex; /* si no pongo este flex y tampoco pongo el que está en "navsup" no puedo ponerlos en la misma fila */
+}
+
+#imax {
+    font-weight: bold;
+}
+
+.textoSup{
+    width: 30%;
+    padding: 20px 0px 10px 60px;
+    color: #ffffff;
+    font-size: 35px;
+    font-family: serif;
+    letter-spacing: -1px;
+}
+
+.navSup{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+    padding-top: 3%; 
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+a:hover {
+    color: #ca4a00;
+}
+
+.contHeader{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 180px;
+    padding: 0px 0px 10px 60px;
+    color: #ffffff;
+    
+}
+
+/* -------------------------------------------- ACÁ TERMINA HEADER Y EMPIEZA CONTENT -------------------------------------------- */
+
+#content {
+    height: 50%;
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+h2#masSobre{
+    padding: 10px;
+}
+
+h2#enVenta{
+    margin-top: -1px;
+}
+
+.nosotros {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.iconos {
+    width: 33.3%;
+    text-align: center;
+    line-height: 160%;
+}
+
+.imgNos {
+    height: 30%;
+    width: 30%;
+}
+
+.venta {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.fotos {
+    width: 33.3%;
+    text-align: center;
+    line-height: 160%;
+    margin: 5px;
+    background-color: #d5d6d8;
+    border: solid 1px #b2b3b4;
+
+}
+
+.imgVen {
+    width: 100%;
+    border-bottom: solid 1px #b2b3b4;
+}
+
+.textoVenta {
+    text-align: left;
+    padding: 0px 10px;
+}
+
+.precio {
+    color: #06ad00 ;
+    font-size: 0.71em;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+h4.textoVenta{
+    margin-bottom: -3px;
+}
+
+.textoChico {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.ambientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cantAmb {
+    font-size: 0.85em;
+}
+
+.imgAmb {
+    height: 25px;
+    width: 25px;
+    opacity: 0.7;
+}
+
+.boton {
+    padding: 15px;
+}
+
+.btn-prop {
+    background-color: #ca4a00;
+    color: #ffffff;
+    border-style: none;
+    padding: 10px 0px;
+    height: 100%;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.ver-todas {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px auto 15px auto;
+    padding-right: 10px;
+    width: 80%;
+}
+
+.btn-todas {
+    background-color: #489600;
+    color: #ffffff;
+    border-style: none;
+    padding: 10px 10px;
+    height: 100%;
+    width: 100px;
+}
+
+/* -------------------------------------------- ACÁ TERMINA CONTENT Y EMPIEZA FOOTER -------------------------------------------- */
+
+#footer{
+    height: 250px;
+    background-image: url("resources/encuentra.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+.contFooter {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+h5 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 30px; 
+}
+
+.textoFooter {
+    color: #ffffff;
+    font-size: 0.95em;
+}
+
+.btn-footer {
+    margin-top: 10px;
+    background-color: #ca4a00;
+    color: #ffffff;
+    border-style: none;
+    padding: 10px 20px;
+}
+
+.piePag {
+    background-color: #464646;
+    margin-top: 30px;
+    display: flex;
+    height: 30px;
+    padding-top: 35px;
+}
+
+.navPie {
+    width: 70%;
+    padding-left: 35px;
+}
+
+.textoPie {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    width: 30%;
+}
